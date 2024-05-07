@@ -22,7 +22,7 @@ button.addEventListener('click', (event) => {
         password: passwordValue
     }
 
-    fetch('http://localhost:3333/users', {
+    fetch('https://api-node-crud-ofg3.onrender.com/users', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json'
