@@ -1,6 +1,6 @@
 const usersEl = document.querySelector('#users')
 
-fetch('http://localhost:3333/users')
+fetch('https://api-node-crud-ofg3.onrender.com/users')
     .then(response => response.json())
     .then(data => {
         console.log(data)
